@@ -29,14 +29,7 @@ module.exports = {
   prompt: {
     messages: {
       type: '选择你要提交的类型 :',
-      scope: '选择一个提交范围（可选）:',
-      customScope: '请输入自定义的提交范围 :',
       subject: '填写简短精炼的变更描述 :\n',
-      body: '填写更加详细的变更描述（可选）。使用 "|" 换行 :\n',
-      breaking: '列举非兼容性重大的变更（可选）。使用 "|" 换行 :\n',
-      footerPrefixesSelect: '选择关联issue前缀（可选）:',
-      customFooterPrefix: '输入自定义issue前缀 :',
-      footer: '列举关联issue (可选) 例如: #31, #I3244 :\n',
       generatingByAI: '正在通过 AI 生成你的提交简短描述...',
       generatedSelectByAI: '选择一个 AI 生成的简短描述:',
       confirmCommit: '是否提交或修改commit ?'
