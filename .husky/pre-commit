@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "ts 类型检查中..."
+npx tsc  
+echo "ts 类型检查完成"
+npx --no-install lint-staged --quiet
