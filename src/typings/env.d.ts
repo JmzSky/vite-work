@@ -9,3 +9,13 @@ declare module '*.vue' {
   const component: DefineComponent<object, object, any>
   export default component
 }
+
+interface ImportMetaEnv {
+  /** API 基础路径 */
+  VITE_APP_BASE_API: string
+  VITE_APP_API_URL: string
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv
+}
