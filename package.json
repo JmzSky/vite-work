@@ -2,14 +2,15 @@
   "name": "vite-work",
   "private": true,
   "version": "0.0.0",
+  "author": "Jmzyzr",
   "type": "module",
   "scripts": {
+    "prepare": "npx husky install",
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint src --fix --ext .ts,.tsx,.vue,.js,.jsx",
     "prettier": "prettier --write .",
-    "prepare": "husky install",
     "commit": "git-cz"
   },
   "config": {
