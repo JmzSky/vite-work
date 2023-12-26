@@ -1,4 +1,4 @@
-# umi4 + react 18 + TypeScript + Antd Design
+# vite5 + vue3 + TypeScript + Element Plus + Pinia
 
 # 安装 pnpm
 
